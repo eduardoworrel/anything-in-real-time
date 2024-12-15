@@ -16,7 +16,7 @@ data = load_data()
 
 st.title("Real-Time Crime Dashboard")
 
-tab1, tab2 = st.tabs(["Visão Geral", "Operações"])
+tab1, tab2 = st.tabs(["Dashboard", "Operation"])
 
 with tab1:
     # Renderizar filtros
